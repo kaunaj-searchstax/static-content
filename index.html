@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="index,follow" />
+  <title>Schema Test Page</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Sample Event",
+    "headline": "SearchStax JSON-LD Test",
+    "author": {
+      "@type": "Person",
+      "name": "Test Author"
+    },
+    "datePublished": "2026-08-27",
+    "mainEntityOfPage": "https://yourname.github.io/schema-test-page/",
+    "description": "A simple public page for crawler schema extraction testing.",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "eventType",
+        "value": "type 1"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "eventType",
+        "value": "type 2"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "eventAudience",
+        "value": "audience 1"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "eventAudience",
+        "value": "audience 2"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <h1>SearchStax JSON-LD Test Page</h1>
+  <p>This page is public and intended for crawler/schema testing.</p>
+</body>
+</html>
