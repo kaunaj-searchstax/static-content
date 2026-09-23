@@ -1,0 +1,57 @@
+<svg width="300" height="168" viewBox="0 0 300 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="168" fill="#F8F9FA"/>
+
+  <!-- Streets - lighter gray -->
+  <path d="M0 40 H300" stroke="#E8EAED" stroke-width="8"/>
+  <path d="M0 80 H300" stroke="#E8EAED" stroke-width="6"/>
+  <path d="M0 120 H300" stroke="#E8EAED" stroke-width="8"/>
+  <path d="M70 0 V168" stroke="#E8EAED" stroke-width="6"/>
+  <path d="M150 0 V168" stroke="#E8EAED" stroke-width="10"/>
+  <path d="M230 0 V168" stroke="#E8EAED" stroke-width="6"/>
+
+  <!-- Streets - white lines -->
+  <path d="M0 40 H300" stroke="#FFFFFF" stroke-width="5"/>
+  <path d="M0 80 H300" stroke="#FFFFFF" stroke-width="4"/>
+  <path d="M0 120 H300" stroke="#FFFFFF" stroke-width="5"/>
+  <path d="M70 0 V168" stroke="#FFFFFF" stroke-width="4"/>
+  <path d="M150 0 V168" stroke="#FFFFFF" stroke-width="7"/>
+  <path d="M230 0 V168" stroke="#FFFFFF" stroke-width="4"/>
+
+  <!-- Small blocks for detail -->
+  <rect x="15" y="10" width="45" height="25" fill="#E8EDF2" rx="2"/>
+  <rect x="15" y="50" width="45" height="25" fill="#E3E8EE" rx="2"/>
+  <rect x="15" y="90" width="45" height="25" fill="#E8EDF2" rx="2"/>
+  <rect x="15" y="130" width="45" height="30" fill="#E3E8EE" rx="2"/>
+
+  <rect x="80" y="10" width="60" height="25" fill="#E3E8EE" rx="2"/>
+  <rect x="80" y="50" width="60" height="25" fill="#E8EDF2" rx="2"/>
+  <rect x="80" y="90" width="60" height="25" fill="#E3E8EE" rx="2"/>
+  <rect x="80" y="130" width="60" height="30" fill="#E8EDF2" rx="2"/>
+
+  <rect x="160" y="10" width="60" height="25" fill="#E8EDF2" rx="2"/>
+  <rect x="160" y="50" width="60" height="25" fill="#E3E8EE" rx="2"/>
+  <rect x="160" y="90" width="60" height="25" fill="#E8EDF2" rx="2"/>
+  <rect x="160" y="130" width="60" height="30" fill="#E3E8EE" rx="2"/>
+
+  <rect x="240" y="10" width="45" height="25" fill="#E3E8EE" rx="2"/>
+  <rect x="240" y="50" width="45" height="25" fill="#E8EDF2" rx="2"/>
+  <rect x="240" y="90" width="45" height="25" fill="#E3E8EE" rx="2"/>
+  <rect x="240" y="130" width="45" height="30" fill="#E8EDF2" rx="2"/>
+
+  <!-- Park area -->
+  <rect x="170" y="5" width="40" height="28" fill="#D4E7D4" rx="2" opacity="0.6"/>
+
+  <!-- Location Pin - centered -->
+  <g transform="translate(150, 84)">
+    <!-- Pin shadow -->
+    <ellipse cx="0" cy="22" rx="8" ry="3" fill="#000000" opacity="0.15"/>
+
+    <!-- Pin body -->
+    <path d="M0,-20 C-8,-20 -14,-14 -14,-6 C-14,2 0,20 0,20 C0,20 14,2 14,-6 C14,-14 8,-20 0,-20 Z"
+          fill="#EA4335"/>
+
+    <!-- Pin inner circle -->
+    <circle cx="0" cy="-6" r="5" fill="#FFFFFF"/>
+  </g>
+</svg>
